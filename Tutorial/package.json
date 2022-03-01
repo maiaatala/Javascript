@@ -1,6 +1,12 @@
 {
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "learning js",
+  "main": "index.js",
+  "author": "maiaatala",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "node": "^17.5.0"
-  },
-  "version": "0.0.0"
+  }
 }

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+* {
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Hubballi", cursive;
+}
+
+/* color palette: https://github.com/dracula/dracula-theme */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body {
+    color: #f8f8f2;
+    background-color: rgb(40, 42, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 400px;
+}
+
+button {
+    background-color: #44475a;
+    color: #8be9fd;
+    border-radius: 5px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+button:hover {
+    background-color: #8be8fd63;
+}
+
+input[type="text"] {
+    padding: 10px 5px 5px;
+    border-radius: 5px;
+    font-size: 14pt;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.task-item {
+    margin-top: 10px;
+}
+
+input[type="checkbox" i] {
+    height: 20px;
+    width: 20px;
+}
+
+label {
+    padding-left: 10px;
+    font-size: 20pt;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: #6272a4;
+}
