@@ -8,9 +8,12 @@
 
 let ultimoNome = null; //=null transforms the variable into an object
 // console.log(typeof ultimoNome);
+console.log(ultimoNome == false);
+console.log(!ultimoNome);
 
 let primeiroNome = undefined;
 // console.log(typeof primeiroNome);
+// ! empty, null e underfined will return as false if treated as booleans
 
 // * object sintax
 
@@ -117,6 +120,8 @@ var circle = {
 // xicara.tomarCafe();
 // console.log(circle.area());
 // console.log(circle.volume(4 / 3));
+// console.log(Object.values(circle))
+// console.log(Object.keys(circle));
 
 // * CONDITIONALS
 
