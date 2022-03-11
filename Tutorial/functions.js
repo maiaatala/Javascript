@@ -16,7 +16,7 @@ const sum2 = (a = 3, b = 4) => {
   return a + b;
 };
 
-console.log(sum(3, 4), sum1(3, 4), sum2());
+// console.log(sum(3, 4), sum1(3, 4), sum2());
 
 /* //* Immediatly Ivoked Function Expression
 an anonymous function between parentheses with a closing () at the end
@@ -64,4 +64,20 @@ function sum5() {
   return sum;
 }
 
-console.log(sum5(3, 4, 3));
+// console.log(sum5(3, 4, 3));
+
+function sum6(x, y, z) {
+  return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+// * Spread operator ...
+// console.log(...numbers);
+// console.log(sum6(...numbers));
+
+function sizechecker(...args) {
+  console.log(args.length);
+}
+// sizechecker(3, 4, 5, 6);
+
+// * Object Destructuring
