@@ -8,8 +8,8 @@
 
 let ultimoNome = null; //=null transforms the variable into an object
 // console.log(typeof ultimoNome);
-console.log(ultimoNome == false);
-console.log(!ultimoNome);
+// console.log(ultimoNome == false);
+// console.log(!ultimoNome);
 
 let primeiroNome = undefined;
 // console.log(typeof primeiroNome);
@@ -171,16 +171,21 @@ let obj = {
 // }
 
 // for (let i of array) {
-//   console.log(i); // imprime o indice como string... inutil
+//   console.log(i); // imprime os valores
 // }
 
 // for (let i in obj) {
-//   console.log(i); // outputs the argument var as a string
+//   console.log(i); // outputs key names
 // }
 
 // ! does not work like that
 // for (let i of obj) {
 //   console.log(i); // outputs the argument var as a string
+// }
+
+// ! the workaround:
+// for (let i in obj) {
+//   console.log(obj[i]); // outputs the argument var as a string
 // }
 
 // while (true) {

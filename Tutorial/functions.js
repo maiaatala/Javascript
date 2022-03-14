@@ -40,6 +40,7 @@ const sub = (a, b) => {
   return a - b;
 };
 
+// ! arrow functions
 const sum4 = (a, b) => {
   return a + b;
 };
@@ -56,7 +57,7 @@ const sum4 = (a, b) => {
 function sum5() {
   let sum = 0;
   // ? why did this work?
-  // ? in: keys   & of: values
+  // ? arguments is AN ARRAY of arguments!
   for (i of arguments) {
     sum += i;
     // console.log(i, typeof i);
@@ -81,3 +82,10 @@ function sizechecker(...args) {
 // sizechecker(3, 4, 5, 6);
 
 // * Object Destructuring
+// ? (... and map?)
+
+/* // ! arrow functions:
+- they do not use this
+- there is no arguments object
+- no constructor
+*/
